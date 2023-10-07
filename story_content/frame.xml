@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns10100000101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4F81BD">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns10101000101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4F81BD">
   <layouts>
-    <layout name="npnxnanbsnfns10100000101" font="Lato" controllayout="npnxnanbsnfns10100000101" colorscheme="npnxnanbnsnfns10100000101" string_table="npnxnanbnsnfns10100000101" />
-    <layout name="pxabnsnfns10100000101" font="Lato" controllayout="pxabnsnfns10100000101" colorscheme="npnxnanbnsnfns10100000101" string_table="npnxnanbnsnfns10100000101" />
-    <layout name="npxnabnsnfns10100000101" font="Lato" controllayout="npxnabnsnfns10100000101" colorscheme="npnxnanbnsnfns10100000101" string_table="npnxnanbnsnfns10100000101" />
-    <layout name="npnxnanbnsnfns10100000101" font="Lato" controllayout="npnxnanbnsnfns10100000101" colorscheme="npnxnanbnsnfns10100000101" string_table="npnxnanbnsnfns10100000101" />
-    <layout name="pxabnsnfns10100000100" font="Lato" controllayout="pxabnsnfns10100000100" colorscheme="npnxnanbnsnfns10100000101" string_table="npnxnanbnsnfns10100000101" />
+    <layout name="npnxnanbsnfns10101000101" font="Lato" controllayout="npnxnanbsnfns10101000101" colorscheme="npnxnanbnsnfns10101000101" string_table="npnxnanbnsnfns10101000101" />
+    <layout name="pxabnsnfns10101000101" font="Lato" controllayout="pxabnsnfns10101000101" colorscheme="npnxnanbnsnfns10101000101" string_table="npnxnanbnsnfns10101000101" />
+    <layout name="npxnabnsnfns10101000101" font="Lato" controllayout="npxnabnsnfns10101000101" colorscheme="npnxnanbnsnfns10101000101" string_table="npnxnanbnsnfns10101000101" />
+    <layout name="npnxnanbnsnfns10101000101" font="Lato" controllayout="npnxnanbnsnfns10101000101" colorscheme="npnxnanbnsnfns10101000101" string_table="npnxnanbnsnfns10101000101" />
+    <layout name="pxabnsnfns10101000100" font="Lato" controllayout="pxabnsnfns10101000100" colorscheme="npnxnanbnsnfns10101000101" string_table="npnxnanbnsnfns10101000101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -13,13 +13,13 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="CMME-DAPPC" />
+              <option name="title_text" value="CMME-DAPPC-v2" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
             <options />
           </option>
-          <option name="sidebar_enabled" value="false">
+          <option name="sidebar_enabled" value="true">
             <options>
               <option name="sidebarpos" value="left" />
               <option name="closed" value="false" />
@@ -28,7 +28,7 @@
           <optionlist name="tabs">
             <listitems>
               <listitem name="resources" value="false" group="linkright" />
-              <listitem name="outline" value="false" group="sidebar" />
+              <listitem name="outline" value="true" group="sidebar" />
               <listitem name="glossary" value="false" group="sidebar" />
               <listitem name="transcript" value="false" group="sidebar" />
             </listitems>
@@ -48,7 +48,7 @@
       </optiongroup>
       <optiongroup name="menuoptions">
         <options>
-          <option name="flow" value="free" />
+          <option name="flow" value="restricted" />
           <option name="wraplistitems" value="false" />
           <option name="tooltips" value="true" />
           <option name="autocollapse" value="true" />
@@ -93,7 +93,7 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns10100000101">
+    <control_layout name="npnxnanbsnfns10101000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -111,14 +111,14 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
+      <control name="outline" enabled="true">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns10100000101">
+    <control_layout name="pxabnsnfns10101000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -136,14 +136,14 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
+      <control name="outline" enabled="true">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns10100000101">
+    <control_layout name="npxnabnsnfns10101000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -161,14 +161,14 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
+      <control name="outline" enabled="true">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns10100000101">
+    <control_layout name="npnxnanbnsnfns10101000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -186,14 +186,14 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
+      <control name="outline" enabled="true">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns10100000100">
+    <control_layout name="pxabnsnfns10101000100">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -211,7 +211,7 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
+      <control name="outline" enabled="true">
         <controls>
           <control name="search" enabled="false" />
         </controls>
@@ -220,7 +220,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npnxnanbnsnfns10100000101">
+    <colorscheme name="npnxnanbnsnfns10101000101">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1398,7 +1398,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npnxnanbnsnfns10100000101">
+    <string_table name="npnxnanbnsnfns10101000101">
       <string id="three_image_progress_audio">progress</string>
       <string id="three_image_audio">audio</string>
       <string id="three_image_camera_down">camera moved down</string>
@@ -1577,24 +1577,20 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.6isaYrx65TI" displaytext="Untitled Scene" expand="true" type="slide">
+        <slidelink slideid="_player.6isaYrx65TI.6H92I930ogZ" displaytext="Instructions" expand="false" type="slide" />
+        <slidelink slideid="_player.6isaYrx65TI" displaytext="Dealing with Angry Patients" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.6isaYrx65TI.6IgSpEuYeEm" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6isaYrx65TI.6H92I930ogZ" displaytext="Intro Instructions" expand="false" type="slide" />
-            <slidelink slideid="_player.6isaYrx65TI.67J2mmGw8iK" displaytext="Title" expand="false" type="slide" />
-            <slidelink slideid="_player.6isaYrx65TI.5ikIgzKdfPN" displaytext="Title" expand="false" type="slide" />
             <slidelink slideid="_player.6isaYrx65TI.6i95TatL6FY" displaytext=" Consultations In Primary Care And Medical Ethics" expand="false" type="slide" />
             <slidelink slideid="_player.6isaYrx65TI.6Jk5MHnFtnl" displaytext="Learning Objectives" expand="false" type="slide" />
-            <slidelink slideid="_player.6isaYrx65TI.5p1ZevuDWMf" displaytext=" " expand="false" type="slide" />
-            <slidelink slideid="_player.6isaYrx65TI.5rKXgIdJMtb" displaytext=" " expand="false" type="slide" />
-            <slidelink slideid="_player.6isaYrx65TI.6j8YIqxUXgL" displaytext="Do Not: Things To Avoid" expand="false" type="slide" />
-            <slidelink slideid="_player.6isaYrx65TI.5ayOsYYrxpc" displaytext="Clinical Case Scenario " expand="false" type="slide" />
-            <slidelink slideid="_player.6isaYrx65TI.6CGKuhLn1mc" displaytext="Key Points" expand="false" type="slide" />
-            <slidelink slideid="_player.6isaYrx65TI.6C4J433KVbK" displaytext="Video Enactment " expand="false" type="slide" />
             <slidelink slideid="_player.6isaYrx65TI.6anLe2uad0f" displaytext="Clinical Case Scenario" expand="false" type="slide" />
-            <slidelink slideid="_player.6isaYrx65TI.5kxNbL1fiUk" displaytext=" " expand="false" type="slide" />
+            <slidelink slideid="_player.6isaYrx65TI.5kxNbL1fiUk" displaytext=" How To De-escalate" expand="false" type="slide" />
             <slidelink slideid="_player.6isaYrx65TI.5ttVDAdO4uK" displaytext="Patient’s Perspective" expand="false" type="slide" />
             <slidelink slideid="_player.6isaYrx65TI.5XlupJacvfP" displaytext="DOs : Things To Do" expand="false" type="slide" />
+            <slidelink slideid="_player.6isaYrx65TI.6j8YIqxUXgL" displaytext="Do Not: Things To Avoid" expand="false" type="slide" />
+            <slidelink slideid="_player.6isaYrx65TI.5ayOsYYrxpc" displaytext="Clinical Case Scenario Revisited" expand="false" type="slide" />
+            <slidelink slideid="_player.6isaYrx65TI.6CGKuhLn1mc" displaytext="Key Points" expand="false" type="slide" />
+            <slidelink slideid="_player.6isaYrx65TI.6C4J433KVbK" displaytext="Video Enactment " expand="false" type="slide" />
+            <slidelink slideid="_player.6isaYrx65TI.5rKXgIdJMtb" displaytext="Conclusion" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>

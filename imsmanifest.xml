@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest identifier="_6qM1npgnE3x" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+<manifest identifier="_6M7edmCvr9Q" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
   <metadata>
     <schema>ADL SCORM</schema>
     <schemaversion>1.2</schemaversion>
     <lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
       <general>
         <title>
-          <langstring xml:lang="x-none">CMME-DAPPC-v2</langstring>
+          <langstring xml:lang="x-none">CMME-DAPPC-v21</langstring>
         </title>
         <description>
-          <langstring xml:lang="x-none">edits100723 incorporated</langstring>
+          <langstring xml:lang="x-none">edits100723 incorporated; Intro slides removed; seekbar enabled 101023</langstring>
         </description>
       </general>
       <lifecycle>
@@ -53,29 +53,22 @@
       </rights>
     </lom>
   </metadata>
-  <organizations default="CMME-DAPPC-v2_ORG">
-    <organization identifier="CMME-DAPPC-v2_ORG">
-      <title>CMME-DAPPC-v2</title>
-      <item identifier="CMME-ES_SCO" isvisible="true" identifierref="__6qM1npgnE3x_RES">
-        <title>CMME-DAPPC-v2</title>
+  <organizations default="CMME-DAPPC-v21_ORG">
+    <organization identifier="CMME-DAPPC-v21_ORG">
+      <title>CMME-DAPPC-v21</title>
+      <item identifier="CMME-ES_SCO" isvisible="true" identifierref="__6M7edmCvr9Q_RES">
+        <title>CMME-DAPPC-v21</title>
       </item>
     </organization>
   </organizations>
   <resources>
-    <resource identifier="__6qM1npgnE3x_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
+    <resource identifier="__6M7edmCvr9Q_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
       <file href="story_content/thumbnail.jpg" />
       <file href="mobile/6OG0ILx2u0o.png" />
       <file href="story_content/6D7ECDi1j7a_44100_48_0.mp3" />
       <file href="mobile/5vC6DvUDdcQ.png" />
       <file href="mobile/5vC6DvUDdcQ_P_0_0_459_1863.png" />
-      <file href="mobile/5rrCkBOBxX2_F3FBFE_P_162_149_1743_1215.png" />
-      <file href="story_content/6k7M1ZTaU0m_44100_48_0.mp3" />
-      <file href="mobile/6SoNbd1R6uf.png" />
-      <file href="mobile/5aElE3WSmqw.png" />
       <file href="mobile/6HjJg5raYlf.png" />
-      <file href="mobile/6816zfw1Mi4.png" />
-      <file href="mobile/64lmWHilr0Y.png" />
-      <file href="story_content/6Zj8FSQiWZm_44100_48_0.mp3" />
       <file href="story_content/63AuAXwsn7r_44100_48_0.mp3" />
       <file href="story_content/5tQFZVzhOHB_44100_48_0.mp3" />
       <file href="mobile/5wVPh0fSYFu.png" />
@@ -760,13 +753,11 @@
       <file href="mobile/txt__default_6qS07erWx4a.png" />
       <file href="html5/data/css/output.min.css" />
       <file href="html5/data/js/5ayOsYYrxpc.js" />
-      <file href="html5/data/js/5ikIgzKdfPN.js" />
       <file href="html5/data/js/5kxNbL1fiUk.js" />
       <file href="html5/data/js/5p1ZevuDWMf.js" />
       <file href="html5/data/js/5rKXgIdJMtb.js" />
       <file href="html5/data/js/5ttVDAdO4uK.js" />
       <file href="html5/data/js/5XlupJacvfP.js" />
-      <file href="html5/data/js/67J2mmGw8iK.js" />
       <file href="html5/data/js/6anLe2uad0f.js" />
       <file href="html5/data/js/6C4J433KVbK.js" />
       <file href="html5/data/js/6CGKuhLn1mc.js" />
